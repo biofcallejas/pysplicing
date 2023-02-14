@@ -1,8 +1,6 @@
-Before running TACOS, please make sure you have the following requirements:
+Before running TACOS, please make sure you meet the following requirements:
 
-TACOS has been tested on python 3.8.12 and needs the following libraries, some might require manual installation.
-
-Python prerequisites:
+TACOS has been tested on python 3.8.12, and needs the following libraries (some might require manual installation):
 
 import tabulate
 import plotext
