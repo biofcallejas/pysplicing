@@ -37,6 +37,6 @@ TACOS pipeline is divided into three main steps:
 3.- Transcript assembly
 ```
 
-![tacos_summary](https://user-images.githubusercontent.com/45425927/219088631-24e0dafd-bdc5-4c6d-b32b-431435c52603.jpg)
+![tacos_summary](https://user-images.githubusercontent.com/45425927/219090905-d3c7e9dd-7d35-4b2a-929c-e44cd968ffc0.jpg)
 
 
