@@ -3,7 +3,7 @@
 
 TACOS pipeline is divided into three main steps:
 ```
-1.- RNA seq mapping to the reference genome.
+1.- RNAseq mapping to the reference genome.
 2.- Processing of the SJs.
 3.- Transcript assembly
 ```
@@ -12,7 +12,7 @@ TACOS pipeline is divided into three main steps:
 
 Before running TACOS, please make sure you meet the following requirements:
 
-TACOS has been tested on python 3.8.12, and needs the following libraries/spftware (some might require manual installation):
+TACOS has been tested on python 3.8.12, and needs the following libraries/software (some might require manual installation):
 
 ```
 import tabulate
