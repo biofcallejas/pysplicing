@@ -25,3 +25,7 @@ BAM file must be indexed, and the index must be present in the same path.
 It can be obtained with samtools by running:
 
 samtools index file.bam
+
+A summary of TACOS:
+![tacos_summary](https://user-images.githubusercontent.com/45425927/219086018-11539789-5a99-4d9f-a058-aaaad5529008.jpg)
+
