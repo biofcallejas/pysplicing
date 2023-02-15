@@ -46,8 +46,32 @@ samtools index file.bam
 
 ###### 2. Running the main script
 
-*In process ...*
-_
+```
+python tacos_v2.py -h 
+
+usage: tacos_v2.py [-h] -f INPUT -sj SJ_STAR -b BAM_F -o OUTPUT -5m MOTIF5P -3m MOTIF3P
+
+Trichomonad assembler for complex splicing
+---------------------
+Tested on python 3.8.12
+
+optional arguments:
+  -h, --help            show this help message and exit
+
+Mandatory arguments:
+  -f INPUT, --input INPUT, Input fasta file (Genome reference)
+                        
+  -sj SJ_STAR, --input_sj SJ_STAR, SJ.out.tab from STAR mapping
+                        
+  -b BAM_F, --input_bam BAM_F, BAM file from STAR mapping
+                        
+  -o OUTPUT, --output OUTPUT, Prefix: Prefix for output files
+                        
+  -5m MOTIF5P, --5p-motif MOTIF5P, String: Splicing motif at 5p (upper case nucleotides only, no spaces)
+                        
+  -3m MOTIF3P, --3p-motif MOTIF3P, String: Splicing motif at 3p (upper case nucleotides only, no spaces)
+```
+
 ###### 3. Transcript assembly 
 
 *In process ...*
