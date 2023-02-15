@@ -10,6 +10,9 @@ TACOS pipeline is divided into three main steps:
 
 ![tacos_summary](https://user-images.githubusercontent.com/45425927/219090905-d3c7e9dd-7d35-4b2a-929c-e44cd968ffc0.jpg)
 
+The complete pseudo-code can be summaryzed as follows:
+
+![pseudo_code](https://user-images.githubusercontent.com/45425927/219105430-0dc3a9c5-fd9c-44e5-916b-74207004f82d.jpg)
 
 ## Installation
 Before running TACOS, please make sure you meet the following requirements:
