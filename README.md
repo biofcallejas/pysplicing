@@ -46,14 +46,13 @@ samtools index file.bam
 
 ###### 2. Running the main script
 
-_In process ...
+*In process ...*
 _
 ###### 3. Transcript assembly 
 
-_In process ...
-_
+*In process ...*
+
 ## Running TACOS with test files
 
-_In process ...
-_
+*In process ...*
 
