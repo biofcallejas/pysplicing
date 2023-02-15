@@ -3,13 +3,17 @@
 
 Before running TACOS (Trichomonad Assembler for COmplex Splicing), please make sure you meet the following requirements:
 
-TACOS has been tested on python 3.8.12, and needs the following libraries (some might require manual installation):
+TACOS has been tested on python 3.8.12, and needs the following libraries/spftware (some might require manual installation):
 
 ```
 import tabulate
 import plotext
 import pysam
-import six 
+import six
+
+STAR
+StringTie
+Samtools
 ```
 
 Mapping parameters. TACOS has been tested with STAR 2.7.6a.
