@@ -27,10 +27,10 @@ It can be obtained with samtools by running:
 samtools index file.bam
 
 TACOS pipeline is divided into three main steps:
-
+,,,
 1.- RNA seq mapping to the reference genome.
 2.- Processing of the SJs.
 3.- Transcript assembly
-
+,,,
 ![tacos_summary](https://user-images.githubusercontent.com/45425927/219086018-11539789-5a99-4d9f-a058-aaaad5529008.jpg)
 
