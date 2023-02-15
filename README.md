@@ -13,7 +13,7 @@ import six
 ```
 
 Mapping parameters. TACOS has been tested with STAR 2.7.6a.
-Custom mapping parameters are not needed (nor reccomended), however the following parameters are mandatory:
+Custom parameters for mapping are not needed (nor reccomended), however the use of the following parameters are mandatory:
 
 ```
 --outSAMtype BAM SortedByCoordinate 
@@ -26,6 +26,11 @@ It can be obtained with samtools by running:
 
 samtools index file.bam
 
-A summary of TACOS:
+TACOS pipeline is divided into three main steps:
+
+1.- RNA seq mapping to the reference genome.
+2.- Processing of the SJs.
+3.- Transcript assembly
+
 ![tacos_summary](https://user-images.githubusercontent.com/45425927/219086018-11539789-5a99-4d9f-a058-aaaad5529008.jpg)
 
