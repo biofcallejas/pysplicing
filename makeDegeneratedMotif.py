@@ -1,10 +1,8 @@
 #!/usr/bin/env python
 #-*- coding: UTF-8 -*-
 
-from __future__ import division
 import sys
 import os
-import numpy as np
 import six
 import re
 syntax = '''
@@ -14,10 +12,6 @@ Syntax: python makeDegenerateMotif.py
 
 ---------------------------------------------------------------------------------------------------------------------
 '''
-
-#if len(sys.argv) != 2:
-#	print (syntax)
-#	sys.exit()
 
 def make_degenerate_motif(motif_seq):
 
@@ -74,9 +68,3 @@ for val in test_list:
 		print('Match patterns: ' + str(match_res1) + ' ' + str(match_res2))
 	else:
 		print('Not found')
-
-
-'''
-"GT[AT][TCG][GATC][TAGC][ATC]"
-"[ATG][CTG][CT][ATC][AT][ATGC][AC][CAT][ATG][CT]AG"
-'''
