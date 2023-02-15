@@ -59,17 +59,17 @@ optional arguments:
   -h, --help            show this help message and exit
 
 Mandatory arguments:
-  -f INPUT, --input INPUT, Input fasta file (Genome reference)
+  -f INPUT, --input, Input fasta file (Genome reference)
                         
-  -sj SJ_STAR, --input_sj SJ_STAR, SJ.out.tab from STAR mapping
+  -sj SJ_STAR, --input_sj, SJ.out.tab from STAR mapping
                         
-  -b BAM_F, --input_bam BAM_F, BAM file from STAR mapping
+  -b BAM_F, --input_bam, BAM file from STAR mapping
                         
-  -o OUTPUT, --output OUTPUT, Prefix: Prefix for output files
+  -o OUTPUT, --output, Prefix: Prefix for output files
                         
-  -5m MOTIF5P, --5p-motif MOTIF5P, String: Splicing motif at 5p (upper case nucleotides only, no spaces)
+  -5m MOTIF5P, --5p-motif, String: Splicing motif at 5p (upper case nucleotides only, no spaces)
                         
-  -3m MOTIF3P, --3p-motif MOTIF3P, String: Splicing motif at 3p (upper case nucleotides only, no spaces)
+  -3m MOTIF3P, --3p-motif, String: Splicing motif at 3p (upper case nucleotides only, no spaces)
 ```
 
 ###### 3. Transcript assembly 
