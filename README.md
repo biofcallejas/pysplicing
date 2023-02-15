@@ -22,6 +22,6 @@ Custom mapping parameters are not needed (nor reccomended), however the followin
 ```
 
 BAM file must be indexed, and the index must be present in the same path.
-It cab be obtained with samtools by running:
+It can be obtained with samtools by running:
 
 samtools index file.bam
