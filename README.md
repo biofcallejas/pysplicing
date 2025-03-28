@@ -107,7 +107,7 @@ The transcript assembly can be run using default parameters (using multiple thre
 
 ###### 4. Additional considerations
 
-If you use our script, please consider [citing our work](doi: https://doi.org/10.1101/2024.11.13.623467).
+If you use our script, please consider [citing our work](https://doi.org/10.1101/2024.11.13.623467).
 
 
 
