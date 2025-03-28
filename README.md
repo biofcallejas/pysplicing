@@ -45,7 +45,7 @@ Next, the semi-automated pipeline requires the following programs to be installe
 
 The complete pseudo-code can be summarized as follows:
 
-![pseudo_code](https://user-images.githubusercontent.com/45425927/219105430-0dc3a9c5-fd9c-44e5-916b-74207004f82d.jpg)
+![pseudo_code](https://github.com/biofcallejas/pysplicing/blob/b61aac306950582a4c60231bdac9c0e79aa03ec8/tacos%20mats%20and%20mets.jpg)
 
 ## Running TACOS
 
