@@ -1,7 +1,31 @@
 # TACOS
 ## Trichomonad Assembler for COmplex Splicing
 
-TACOS pipeline is divided into three main steps:
+This semi-automated pipeline was designed to filter the Trichomonas vagialis transcriptome for chimeric alignments. 
+The Trichomonas genome, full of complex repeats, can produce hundreds of thousands of chimeric mappings from RNAseq data, making it difficult to produce accurate transcript quantifications and intron detection.
+The main part of this pipeline includes a filtering process for those chimeric mappings by leveraging the conserved intron motifs, the genome sequence, and the transcript evidence.
+
+***The introns in these species have conserved intron motifs at 5' and 3' ends beyond the universal AG/GT dinucleotides.***
+
+Although it was designed for Trichomonas vaginalis, the main python script can be used for other species and custom intron motifs, up to seven nucleotides at the 5' and up to twelve at the 3' end. 
+
+## Installation
+
+Before running TACOS, please make sure you meet the following requirements:
+
+TACOS has been tested on Python 3.8.12 and the following libraries that might require manual installation:
+
+[pysam 0.20.0](https://github.com/pysam-developers/pysam)
+[six 1.16.0](https://pypi.org/project/six/)
+
+```
+STAR
+StringTie
+Samtools
+```
+
+## TACOS pipeline is divided into three main steps:
+
 ```
 1.- RNAseq mapping to the reference genome.
 2.- Processing of the SJs.
@@ -14,21 +38,6 @@ The complete pseudo-code can be summaryzed as follows:
 
 ![pseudo_code](https://user-images.githubusercontent.com/45425927/219105430-0dc3a9c5-fd9c-44e5-916b-74207004f82d.jpg)
 
-## Installation
-Before running TACOS, please make sure you meet the following requirements:
-
-TACOS has been tested on python 3.8.12, and needs the following libraries/software (some might require manual installation):
-
-```
-import tabulate
-import plotext
-import pysam
-import six
-
-STAR
-StringTie
-Samtools
-```
 
 ## Running TACOS
 
