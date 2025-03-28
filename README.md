@@ -1,4 +1,4 @@
-# TACOS :taco: :taco: :taco:
+# TACOS :taco:
 ## Trichomonad Assembler for COmplex Splicing
 
 This semi-automated pipeline was designed to filter the *Trichomonas vaginalis* transcriptome for chimeric alignments. 
@@ -109,7 +109,7 @@ The transcript assembly can be run using default parameters (using multiple thre
 
 If you use our script, please consider [citing our work](https://doi.org/10.1101/2024.11.13.623467).
 
-Redefining the spliceosomal introns of the sexually transmitted parasite *Trichomonas vaginalis* and its close relatives in columbid birds
+> Redefining the spliceosomal introns of the sexually transmitted parasite *Trichomonas vaginalis* and its close relatives in columbid birds
 F. Callejas-Hernández, M Shiratori, SA Sullivan, F. Blow, J. M Carlton - bioRxiv, 2024
 
 :rhinoceros:
