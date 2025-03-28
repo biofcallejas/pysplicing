@@ -1,18 +1,18 @@
-# TACOS
+# TACOS :taco: :taco: :taco:
 ## Trichomonad Assembler for COmplex Splicing
 
-This semi-automated pipeline was designed to filter the *Trichomonas vagialis* transcriptome for chimeric alignments. 
+This semi-automated pipeline was designed to filter the *Trichomonas vaginalis* transcriptome for chimeric alignments. 
 The Trichomonas genome, full of complex repeats, can produce hundreds of thousands of chimeric mappings from RNAseq data, making it difficult to produce accurate transcript quantifications and intron detection.
 
 The main part of this pipeline includes a filtering process for those chimeric mappings by leveraging the conserved intron motifs, the genome sequence, and the transcript evidence.
 
-***The introns in these species have conserved intron motifs at 5' and 3' ends beyond the universal AG/GT dinucleotides.***
+***The introns in these species have conserved intron motifs at 5' and 3' ends beyond the universal GT/AG dinucleotides.***
 
 Although it was designed for Trichomonas vaginalis, the main python script can be used for other species and custom intron motifs, up to seven nucleotides at the 5' and up to twelve at the 3' end. 
 
 ## Installation
 
-Before running TACOS, please make sure you meet the following requirements:
+Before running TACOS, please make sure you meet the following requirements (the use of a conda environment is encouraged):
 
 TACOS has been tested on Python 3.8.12 and the following libraries that might require manual installation:
 
@@ -69,7 +69,7 @@ It can be obtained with samtools by running:
 $ samtools index file.bam
 ```
 
-###### 2. Running the main script
+###### 3. Running the main script
 
 ```
 	This python script is part of the pipeline: Trichomonad Assembler for COmplex Splicing. 
@@ -101,14 +101,17 @@ Optional arguments:
 
 ```
 
-###### 3. Transcript assembly 
+###### 4. Transcript assembly 
 
 The transcript assembly can be run using default parameters (using multiple threads if possible and minimum transcript length=300bp) 
 
-###### 4. Additional considerations
+## Additional considerations
 
 If you use our script, please consider [citing our work](https://doi.org/10.1101/2024.11.13.623467).
 
+Redefining the spliceosomal introns of the sexually transmitted parasite *Trichomonas vaginalis* and its close relatives in columbid birds
+F. Callejas-Hernández, M Shiratori, SA Sullivan, F. Blow, J. M Carlton - bioRxiv, 2024
 
+:rhinoceros:
 
 
