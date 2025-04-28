@@ -45,7 +45,7 @@ Next, the semi-automated pipeline requires the following programs to be installe
 
 The complete pseudo-code can be summarized as follows:
 
-![pseudo_code](tacos mats and mets.jpg)
+![pseudo_code](tacosmatsandmets.jpg)
 
 ## Running TACOS
 
