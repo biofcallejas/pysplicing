@@ -29,7 +29,7 @@ requiredNamed.add_argument("-b", "--input_bam", dest='bam_f', required=True, typ
 optionalNamed = parser.add_argument_group('Optional arguments')
 optionalNamed.add_argument("-o", "--output", dest='output', default='filtered', type=str, help='Prefix: Prefix for output files, default=filtered')
 optionalNamed.add_argument("-5m", "--5p-motif", dest='motif5p', default='GTWYDNH', type=str, help='String: Splicing motif at 5p (upper case nucleotides only, no spaces, up to 7 nucleotides), default:GTWYDNH')
-optionalNamed.add_argument("-3m", "--3p-motif", dest='motif3p', default='TYTAAYHWNCAG', type=str, help='String: Splicing motif at 3p (upper case nucleotides only, no spaces, up to 12 nucleotides), default:TYTAAYHWNCAG')
+optionalNamed.add_argument("-3m", "--3p-motif", dest='motif3p', default='DYYWAHMHDYAG', type=str, help='String: Splicing motif at 3p (upper case nucleotides only, no spaces, up to 12 nucleotides), default:TYTAAYHWNCAG')
 optionalNamed.add_argument("-v", "--verbose", dest='extended_output', choices=['y', 'yes', 'n', 'no', 'Y', 'YES', 'N', 'NO', 'Yes', 'No'], default='yes', type=str, help='Verbose mode, (choices= y, yes, n, no, Y, YES, N, NO, Yes, No), default: yes')
 optionalNamed.add_argument("-h", "--help", action="help", help="Show this help message and exit")
 
