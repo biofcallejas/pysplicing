@@ -41,7 +41,7 @@ Next, the semi-automated pipeline requires the following programs to be installe
 * 2.- Processing of the SJs.
 * 3.- Transcript assembly
 
-![tacos_summary](https://user-images.githubusercontent.com/45425927/219090905-d3c7e9dd-7d35-4b2a-929c-e44cd968ffc0.jpg)
+![tacos_summary](m&m_1.jpg)
 
 The complete pseudo-code can be summarized as follows:
 
